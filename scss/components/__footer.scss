@@ -1,0 +1,528 @@
+.footer {
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 480px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    @media screen and (min-width: 768px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+
+
+    &__big-box {
+        display: block;
+
+        @media screen and (min-width: 480px) {
+            display: block;
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+        gap: 165px;
+        justify-content: center;
+        align-items: center;
+        row-gap: 60px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+        gap: 70px;
+        }
+    }
+    
+    &__logo-link {
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: center;
+
+        @media screen and (min-width: 480px) {
+            
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+
+        }
+    
+        @media screen and (min-width: 1200px) {
+                  justify-content: flex-start;
+        }
+    }
+
+
+    &__box-left {
+        padding-bottom: 60px;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    padding-bottom: 0px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+    }
+
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: block;
+        }
+    }
+    
+    &__logo-color {
+        font-family: 'Raleway';
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: $hover-headline-color;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+    
+    }
+
+
+    &__address {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    @media screen and (min-width: 480px) {
+
+    }
+
+
+    @media screen and (min-width: 768px) {
+display: block;
+    }
+
+    @media screen and (min-width: 1200px) {
+
+    }
+    
+    &__logo {
+        font-family: 'Raleway';
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1.38;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: $headline-color;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+    }
+    
+    &__address {
+    
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: $headline-color;
+        font-style: normal;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+    }
+    
+    &__mail {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #FFFFFF99;
+        margin-top: 9px;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+    }
+    
+    &__tel {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #FFFFFF99;
+        margin-top: 9px;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+    }
+
+
+    &__box-right {
+        padding-bottom: 60px;
+
+        @media screen and (min-width: 768px) {
+          padding-bottom: 0px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+    }
+    
+    &__box-r-headline {
+        display: flex;
+        justify-content: center;
+        color: $headline-color;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    display: block;
+        }
+    }
+    
+    &__box-r-svg-list {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        justify-content: center;
+        
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+    }
+    
+    &__box-r-svg {
+        width: 20px;
+        height: 20px;
+        fill: #FFFFFF;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+    }
+    
+    &__box-r-svg-circle {
+        display: flex;
+        background-color: #FFFFFF1A;
+        border-radius: 50px;
+        width: 44px;
+        height: 44px;
+        justify-content: center;
+        align-items: center;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+        
+    }
+
+    &__box-r-svg-circle:hover {
+        background-color: #2196F3;
+    }
+    
+    &__super-right-svg {
+        width: 24px;
+        height: 24px;
+        fill: #FFF;
+        margin-left: 10px;
+
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+    }
+    
+    
+    &__super-right-small-box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+        row-gap: 12px;
+        justify-content: center;
+        align-items: center;
+
+
+        @media screen and (min-width: 480px) {
+            
+            margin-top: 20px;
+            gap: 20px;
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            gap: 12px;
+        }
+    }
+    
+    &__super-right-headline {
+        display: flex;
+        color: $headline-color;
+        justify-content: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    display: block;
+        }
+    }
+    
+    &__super-right-input {
+        display: flex;
+        width: 450px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.30);
+        background: rgba(33, 150, 243, 0.00);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 16px;
+
+
+        @media screen and (min-width: 480px) {
+
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 358px;
+        height: 50px;
+        }
+    }
+    
+    &__super-right-input::placeholder {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        /* 125% */
+        letter-spacing: 0.48px;
+
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+    }
+    
+    &__super-right-button {
+        display: flex;
+        border: none;
+        width: 200px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: $bg-button-color;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        /* 187.5% */
+        letter-spacing: 0.96px;
+        align-items: center;
+        padding-left: 28px;
+
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+    
+    }
+
+
+}

@@ -1,0 +1,295 @@
+
+.display {
+    display: flex;
+}
+
+.header {
+    border-bottom: solid #D4DBDA 1px;
+
+
+    @media screen and (min-width: 480px) {
+        border-bottom: solid #D4DBDA 1px;
+        
+    }
+
+
+    @media screen and (min-width: 768px) {
+        border-bottom: solid #D4DBDA 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        border-bottom: solid #D4DBDA 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    &__item {
+        position: relative;
+    }
+    
+    &__nav {
+        display: none;
+
+        @media screen and (min-width: 480px) {
+display: none;
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px
+        }
+    
+        @media screen and (min-width: 1200px) {
+              gap: 280px;
+        }
+    }
+
+
+    &__menu-box {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        @media screen and (min-width: 768px) {
+            display: block;
+            width: auto;
+        }
+                
+    }
+
+
+    &__menu-button {
+        margin-left: auto ;
+
+        @media screen and (min-width: 480px) {
+            margin-left: auto;
+
+        }
+
+        @media screen and (min-width: 768px) {
+            display: none;
+
+        }
+
+
+
+
+}
+
+    &__svg-menu {
+        fill: #000000;
+        width: 40px;
+        height: 40px;
+        display: block;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            
+        }
+    }
+
+
+    &__menu-button {
+        background-color: transparent;
+        border: none;
+    }
+    
+    &__list {
+        display: flex;
+        margin-left: 88px;
+        gap: 51px;
+        align-items: center;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            margin-left: 93px;
+            gap: 50px;
+            align-items: center;
+        }
+
+
+    }
+    
+    &__svg {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    &__envelope {
+        fill: #757575;
+        width: 16px;
+        height: 12px;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__smartphone {
+        width: 10px;
+        height: 16px;
+        fill: #757575;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__link-contact:hover {
+        color: #2196F3;
+    }
+    
+    &__svg:hover &__envelope {
+        fill: #2196F3;
+    }
+    
+    &__svg:hover &__contacts {
+        color: #2196F3;
+    }
+    
+    &__svg:hover &__smartphone {
+        fill: #2196F3;
+    }
+    
+    
+    
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        row-gap: 10px;
+
+        @media screen and (min-width: 480px) {
+        
+        }
+    
+    
+    @media screen and (min-width: 768px) {
+        
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        gap: 50px;
+        align-items: center;
+    }
+    }
+    
+    &__logo-color {
+        font-family: 'Raleway';
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #2196F3;
+    }
+    
+    &__logo {
+        font-family: 'Raleway';
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1.38;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #000000;
+    }
+    
+    &__link {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: $title-color;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
+    
+    &__link-contact {
+    
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: $text-color;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__link::after {
+        display: block;
+        position: absolute;
+        opacity: 0;
+        content: "";
+        background-color: #2196F3;
+        height: 3px;
+        width: 100%;
+        margin-top: 32px;
+        transition-property: opacity;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__link:hover::after {
+        opacity: 1;
+    }
+    
+    &__link:hover {
+        color: $hover-headline-color;
+    }
+    
+    &__current::after {
+        display: block;
+        position: absolute;
+        content: "";
+        opacity: 1;
+        background-color: #2196F3;
+        height: 3px;
+        width: 100%;
+        margin-top: 32px;
+        transition-property: opacity;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__current {
+        color: $hover-headline-color;
+    }
+
+
+}
